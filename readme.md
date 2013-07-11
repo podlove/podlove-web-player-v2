@@ -223,12 +223,9 @@ Chapters now handed over as JSON, please take a look at the standalone.html. The
 
 ## Changelog
 
-### trunk (2.1.0)
-* //Playback Speed changeable
-* //Style Editor
-* //smaller and bigger player styles
-* save playtime in cookies
-* mp4chaps image support
+### 2.0.13
+* fix IE8 support
+* more valid/better js code
 
 ### 2.0.12
 * increase version number to fix wordpress.org issues
@@ -349,6 +346,9 @@ Chapters now handed over as JSON, please take a look at the standalone.html. The
 * Full of bugs
 
 ## Upgrade Notice
+
+### 2.0.13
+fix IE8 support and more valid/better js code
 
 ### 2.0.12
 support images in mp4chaps, more valid/better js code and save playtime in cookies
