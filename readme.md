@@ -223,6 +223,10 @@ Chapters now handed over as JSON, please take a look at the standalone.html. The
 
 ## Changelog
 
+### 2.0.15
+* small fixes
+* .htaccess examples added in /help
+
 ### 2.0.14
 * style improvements
 * wordpress twenty thirteen theme compatibility
@@ -328,11 +332,11 @@ Chapters now handed over as JSON, please take a look at the standalone.html. The
 * fresh versions of mediaelementjs and jQuery
 
 ### 1.2
-*** added:** Rich player with meta information (title, subtitle, summary, cover image)  
-*** added:** Opus audio codec support  
-*** added:** Chapter duration display  
-*** added:** Chapter deeplinking  
-*** added:** optional listening to WordPress enclosures  
+* ** added:** Rich player with meta information (title, subtitle, summary, cover image)  
+* ** added:** Opus audio codec support  
+* ** added:** Chapter duration display  
+* ** added:** Chapter deeplinking  
+* ** added:** optional listening to WordPress enclosures  
 * new settings area
 * fixed some issues with flash fallback
 * freshest version of mediaelement.js
@@ -346,7 +350,7 @@ Chapters now handed over as JSON, please take a look at the standalone.html. The
 
 ### 1.1
 * First proper release.
-*** [audio] and [video] are deprecated:** Use [podloveaudio] and [podlovevideo] instead!  
+* ** [audio] and [video] are deprecated:** Use [podloveaudio] and [podlovevideo] instead!  
 * Implements W3C Media Fragements with start and end time
 
 ### 1.0
@@ -354,6 +358,9 @@ Chapters now handed over as JSON, please take a look at the standalone.html. The
 * Full of bugs
 
 ## Upgrade Notice
+
+### 2.0.15
+small fixes and .htaccess examples added in /help
 
 ### 2.0.14
 style improvements, wordpress twenty thirteen theme compatibility, Firefox AAC fix, XSS Firefox Bugfix
