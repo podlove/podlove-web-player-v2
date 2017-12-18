@@ -21,4 +21,4 @@ build:
 	./node_modules/.bin/postcss --use autoprefixer podlove-web-player/static/podlove-web-player.css > ./podlove-web-player/static/podlove-web-player.post.css
 	./node_modules/.bin/uglifycss ./podlove-web-player/static/podlove-web-player.post.css > ./podlove-web-player/static/podlove-web-player.min.css
 	rm ./podlove-web-player/static/podlove-web-player.post.css
-	./node_modules/.bin/uglifyjs --compress --mangle -o ./podlove-web-player/static/podlove-web-player.min.js -- ./podlove-web-player/static/podlove-web-player.js
+	./node_modules/.bin/uglifyjs -o ./podlove-web-player/static/podlove-web-player.min.js ./podlove-web-player/static/podlove-web-player.js
