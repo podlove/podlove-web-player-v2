@@ -797,10 +797,8 @@ if (typeof String.prototype.trim !== 'function') {
       enableKeyboard: true,
       pauseOtherPlayers: true,
       duration: false,
-      plugins: ['flash', 'silverlight'],
-      pluginPath: './static/',
-      flashName: 'flashmediaelement.swf',
-      silverlightName: 'silverlightmediaelement.xap'
+      plugins: [],
+      pluginPath: './static/'
     },
       // Additional parameters default values
       params = $.extend({}, {

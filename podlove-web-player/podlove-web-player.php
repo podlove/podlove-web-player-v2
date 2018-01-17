@@ -186,10 +186,6 @@ function podlovewebplayer_render_player( $tag_name, $atts ) {
 			$files[]   = $src;
 			if ($source_type == 'audio/mpeg') {
 				$mp3source = 'src="'.$src.'" type="'.$source_type.'" preload="none"';
-				$sources[] = '<object type="application/x-shockwave-flash" data="flashmediaelement.swf">
-					<param name="movie" value="flashmediaelement.swf" />
-					<param name="flashvars" value="controls=true&file=' . $src . '" />
-				</object>';
 			}
 		}
 	}
